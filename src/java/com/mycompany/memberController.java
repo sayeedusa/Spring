@@ -24,6 +24,10 @@ public class memberController {
         m.addAttribute("command", new Member());  
         return "registration";   
     }   
+   @RequestMapping(value = "/Exitapp", method = RequestMethod.GET)
+   public String finalPage() {
+      return "Exitapp";
+   }
     
      @RequestMapping(value="/save",method = RequestMethod.POST)    
     public String save(@Valid @ModelAttribute("mem") Member mem, BindingResult br) throws ParseException{    

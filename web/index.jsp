@@ -16,10 +16,15 @@
             <br><br>
             <tr bgcolor="#ffffff">
             <td><a href="viewmember">View Employees</a>  </td>
+      
             <br><br>
         </tr>
         <tr bgcolor="#ffffff">
             <td><a href="/SpringCRUD/viewmemberByPage/1">Display By Page</a>  </td>
+            <br><br>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td><a href="/SpringCRUD/Exitapp">Exit</a>  </td>
             <br><br>
         </tr>
         </table>
